@@ -1,0 +1,37 @@
+.weather-box {
+    text-align: center;
+
+    .temp {
+        background-color: rgba(255, 255, 255, .2);
+        border-radius: 16px;
+        padding: 10px 20px;
+        color: #fff;
+        margin: 25px auto;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+
+        .main-temp {
+            position: relative;
+            display: inline-block;
+            text-shadow: 3px 6px 5px rgba(50, 50, 70, .5);
+            font-size: 102px;
+            font-weight: 900;
+        }
+
+        .min-max-temp {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            div {
+                margin: 5px 10px;
+            }
+        }
+    }
+
+    .weather {
+        color: #fff;
+        font-size: 48px;
+        font-weight: 700;
+        text-shadow: 3px 3px 5px rgba(50, 50, 70, .5);
+    }
+}
